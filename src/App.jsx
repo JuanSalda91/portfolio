@@ -1,7 +1,10 @@
+import Navbar from './components/Navbar.jsx';
+
 function App() {
   return (
     <div className="min-h-screen bg-light">
       {/* Navbar will go here */}
+      <Navbar />
 
       {/* Main content sections */}
       <main>
