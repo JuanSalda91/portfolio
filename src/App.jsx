@@ -1,5 +1,6 @@
 import Navbar from './components/Navbar.jsx';
 import Hero from './components/Hero.jsx';
+import About from './components/About.jsx';
 
 function App() {
   return (
@@ -9,17 +10,12 @@ function App() {
 
       {/* Main content sections */}
       <main>
+
         {/* Hero Section */}
         <Hero />
 
         {/* About Section */}
-        <section id="about" className="min-h-screen bg-white">
-          <div className="container mx-auto px-4">
-            <h2 className="text-4xl font-bold text-center py-20 text-dark">
-              About Section - Coming Soon
-            </h2>
-          </div>
-        </section>
+        <About />
 
         {/* Projects Section */}
         <section id="projects" className="min-h-screen">
