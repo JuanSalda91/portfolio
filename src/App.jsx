@@ -1,4 +1,5 @@
 import Navbar from './components/Navbar.jsx';
+import Hero from './components/Hero.jsx';
 
 function App() {
   return (
@@ -9,13 +10,7 @@ function App() {
       {/* Main content sections */}
       <main>
         {/* Hero Section */}
-        <section id="home" className="min-h-screen">
-          <div className="container mx-auto px-4">
-            <h1 className="text-4xl font-bold text-center py-20 text-primary">
-              Hero Section - Coming Soon
-            </h1>
-          </div>
-        </section>
+        <Hero />
 
         {/* About Section */}
         <section id="about" className="min-h-screen bg-white">
