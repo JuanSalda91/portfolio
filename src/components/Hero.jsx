@@ -36,21 +36,21 @@ function Hero() {
           {/* Primary CTA - View Projects */}
           <a
             href="#projects"
-            className="px-8 py-4 bg-primary text-white font-semibold rounded-lg shadow-lg hover:bg-blue-600 hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 w-full sm:w-auto"
+            className="px-8 py-4 bg-primary text-white font-semibold rounded-lg shadow-lg hover:bg-blue-600 hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 w-full sm:w-auto mr-4"
           >
             Veiw My Work
           </a>
           {/* Secondary CTA - Contact */}
           <a
             href="#contact"
-            className="px-8 py-4 bg-white text-primary font-semibold rounded-lg shadow-lg border-2 border-primary hover:bg-primary hover:text-white transform hover:-translate-y-1 transition-all duration-300 w-full sm:w-auto"
+            className="px-8 py-4 bg-white text-primary font-semibold rounded-lg shadow-lg border-2 border-primary hover:bg-primary hover:text-white transform hover:-translate-y-1 transition-all duration-300 w-full sm:w-auto ml-4"
           >
             Get In Touch
           </a>
         </div>
 
         {/* Scroll Down Indicator */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+        {/* <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
           <a
             href="#about"
             className="text-dark/50 hover:text-primary transition-colors"
@@ -67,7 +67,7 @@ function Hero() {
               <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
             </svg>
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   );
