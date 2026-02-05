@@ -9,7 +9,7 @@ export const projects = [
         githubLink: "insert github link here",
     },
     {
-        id: 1,
+        id: 2,
         title: "Inventory/Sales Tracker",
         description: "A complete MERN stack system for managing inventory and sales in real time, with an AI assitant that generates automatic product descriptions, suggest discounts based on low stack levels, and provides sales tends analysis.",
         image: "insert image here",
