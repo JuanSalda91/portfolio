@@ -24,11 +24,11 @@ function About() {
                 <div className="relative">
                   <div className="w-64 h-64 rounded-full bg-gradient-to-br from-primary to-accent p-1">
                     {/* Option 1: Use actual photo */}
-                    <img 
+                    {/* <img 
                       src="/profile.jpg" 
                       alt="Your Name" 
                       className="w-full h-full rounded-full object-cover"
-                    />
+                    /> */}
                     
                     {/* Option 2: Use placeholder emoji (comment out img above, uncomment this) */}
                     {/* <div className="w-full h-full rounded-full bg-gray-200 flex items-center justify-center">
