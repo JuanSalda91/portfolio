@@ -15,7 +15,7 @@ export const projects = [
         image: "",
         techStack: ["MongoDB", "Express.js", "React", "Node.js"],
         liveLink: "insert live link here",
-        githubLink: "insert github link here",
+        githubLink: "https://github.com/JuanSalda91/i.s.t.d-pro-client",
     },
     {
         id: 3,
