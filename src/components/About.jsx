@@ -31,9 +31,9 @@ function About() {
                     /> */}
                     
                     {/* Option 2: Use placeholder emoji (comment out img above, uncomment this) */}
-                    {/* <div className="w-full h-full rounded-full bg-gray-200 flex items-center justify-center">
+                    <div className="w-full h-full rounded-full bg-gray-200 flex items-center justify-center">
                       <span className="text-6xl">👤</span>
-                    </div> */}
+                    </div>
                   </div>
                 </div>
               </div>
