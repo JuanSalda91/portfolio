@@ -3,6 +3,7 @@ import Hero from './components/Hero.jsx';
 import About from './components/About.jsx';
 import Projects from './components/Projects.jsx';
 import Skills from './components/Skills.jsx';
+import Contact from './components/Contact.jsx';
 
 function App() {
   return (
@@ -26,13 +27,7 @@ function App() {
         <Skills />
 
         {/* Contact Section */}
-        <section id="contact" className="min-h-screen">
-          <div className="container mx-auto px-4">
-            <h2 className="text-4xl font-bold text-center py-20 text-dark">
-              Contact Section - Coming Soon
-            </h2>
-          </div>
-        </section>
+        <Contact />
 
         {/* Footer will go here */}
       </main>
