@@ -2,7 +2,6 @@
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/JuanSalda91/portfolio",
   "type": "module",
   "scripts": {
     "dev": "vite",
