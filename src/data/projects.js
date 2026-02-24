@@ -1,7 +1,7 @@
 export const projects = [
     {
         id: 1,
-        title: "Invoice Generator",
+        title: "Coming Soon",
         description: "Coming Soon",
         image: "",
         techStack: ["MongoDB", "Express.js", "React", "Node.js"],
@@ -10,11 +10,11 @@ export const projects = [
     },
     {
         id: 2,
-        title: "Inventory/Sales Tracker",
-        description: "A complete MERN stack system for managing inventory and sales in real time, with an AI assitant that generates automatic product descriptions, suggest discounts based on low stack levels, and provides sales tends analysis.",
-        image: "/home/devjuan/personalprojects/portfolio/src/assets/ISTDPRO.png",
+        title: "I.S.T.D PRO",
+        description: "I.S.T.D PRO is a modern web application built to simplify how individuals and businesses manage their sales and invoices. Designed with clarity and efficiency in mind, it provides an intuitive experience that removes complexity from everyday operations.",
+        image: "src/assets/ISTDPRO.png",
         techStack: ["MongoDB", "Express.js", "React", "Node.js"],
-        liveLink: "insert live link here",
+        liveLink: "https://istdproclient.vercel.app/login",
         githubLink: "https://github.com/JuanSalda91/i.s.t.d-pro-client",
     },
     {
