@@ -10,9 +10,9 @@ function Contact() {
             </h2>
             <div className="w-20 h-1 bg-gradient-to-r from-primary to-accent mx-auto mb-6"></div>
             <p className="text-lg text-dark/70 max-w-xl mx-auto leading-relaxed">
-              I'm currently open to new opportunities and collaborations. 
+              I'm always open to new opportunities and collaborations. 
               Whether you have a project in mind, a question, or just want 
-              to say hello — my inbox is always open!
+              to say hello, my inbox is always open!
             </p>
           </div>
   
@@ -26,12 +26,10 @@ function Contact() {
               <div className="space-y-6">
                 <div>
                   <h3 className="text-2xl font-bold text-dark mb-2">
-                    Let's Work Together
+                    Have A Project In Mind?
                   </h3>
                   <p className="text-dark/70 leading-relaxed">
-                    I'm actively looking for Full Stack Developer roles and 
-                    freelance opportunities. If you think we'd be a great fit, 
-                    let's connect!
+                    Let's work together.
                   </p>
                 </div>
   
@@ -74,7 +72,7 @@ function Contact() {
                   </div>
                   <div>
                     <p className="text-sm font-medium text-dark/50 uppercase tracking-wide">Status</p>
-                    <p className="text-accent font-medium">Available for Opportunities</p>
+                    <p className="text-accent font-medium">Available</p>
                   </div>
                 </div>
   
@@ -87,7 +85,7 @@ function Contact() {
                     Find Me Online
                   </h3>
                   <p className="text-dark/70 leading-relaxed">
-                    Follow my work and connect with me on these platforms.
+                    Come check my projects and my experience.
                   </p>
                 </div>
   
