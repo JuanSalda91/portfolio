@@ -1,4 +1,4 @@
-import istdpro from "../assets/istdpro.png"
+import dashboard from "../assets/dashboard.png"
 
 export const projects = [
     {
@@ -14,7 +14,7 @@ export const projects = [
         id: 2,
         title: "I.S.T.D PRO",
         description: "I.S.T.D PRO is a modern web application built to simplify how individuals and businesses manage their sales and invoices. Designed with clarity and efficiency in mind, it provides an intuitive experience that removes complexity from everyday operations.",
-        image: istdpro,
+        image: dashboard,
         techStack: ["MongoDB", "Express.js", "React", "Node.js"],
         liveLink: "https://istdproclient.vercel.app/login",
         githubLink: "https://github.com/JuanSalda91/i.s.t.d-pro-client",
