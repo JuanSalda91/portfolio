@@ -2,13 +2,13 @@ function Hero() {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center bg-gradient-to-br from-light via-white to-blue-50"
+      className="min-h-screen flex items-center justify-center bg-gradient-to-br from-light via-white to-blue-50 dark:from-[#020617] dark:via-[#020617] dark:to-slate-900"
     >
       <div className="container mx-auto px-4 py-16 text-center">
         {/* Content will go here */}
 
         {/* Greetings */}
-        <p className="text-lg md:text-xl text-dark/70 font-medium mb-4">
+        <p className="text-lg md:text-xl dark:text-light text-dark/70 font-medium mb-4">
           Hi, I'm
         </p>
 
@@ -20,19 +20,19 @@ function Hero() {
         </h1>
 
         {/* Professional Title*/}
-        <h2 className="text-2xl md:text-4xl font-semibold text-dark mb-6">
+        <h2 className="text-2xl dark:text-light md:text-4xl font-semibold text-dark mb-6">
           Full Stack Developer
         </h2>
 
         {/* Tagline/Description */}
-        <p className="text-lg md:text-xl text-dark/80 max-w-2xl mx-auto mb-10 leading-relaxed">
+        <p className="text-lg md:text-xl text-dark/80 dark:text-light max-w-2xl mx-auto mb-10 leading-relaxed">
           Building modern web applications with the MERN stack. From frontend
           interactions to backend APIs, I create scalable, user-focused
           solutions.
         </p>
 
         {/* CTA Buttons */}
-        <div className="flex flex-col sm:flex-row dap-4 justify-center items-center">
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           {/* Primary CTA - View Projects */}
           <a
             href="#projects"

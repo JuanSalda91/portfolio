@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  @apply transition-colors duration-500 ease-linear
+}
+
 /* Custom smooth scrolling */
 html {
   scroll-behavior: smooth;

@@ -1,6 +1,6 @@
 function ProjectCard({ project }) {
   return (
-    <div className="bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
+    <div className="bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 dark:bg-dark dark:shadow-primary">
       {/* Project Image */}
       <div className="relative h-48 bg-gradient-to-br from-primary/20 to-accent/20 overflow-hidden">
         {project.image ? (
@@ -20,10 +20,10 @@ function ProjectCard({ project }) {
       {/* Project Content */}
       <div className="p-6">
         {/* Project Title */}
-        <h3 className="text-2xl font-bold text-dark mb-3">{project.title}</h3>
+        <h3 className="text-2xl font-bold text-dark dark:text-light mb-3">{project.title}</h3>
 
         {/* Project Description */}
-        <p className="text-dark/70 mb-4 leading-relaxed">
+        <p className="text-dark/70 mb-4 dark:text-light leading-relaxed">
           {project.description}
         </p>
 
@@ -53,7 +53,7 @@ function ProjectCard({ project }) {
             href={project.githubLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex-1 px-4 py-2 bg-dark text-white font-semibold rounded-lg hover:bg-gray-700 transition-colors text-center"
+            className="flex-1 px-4 py-2 bg-dark dark:bg-light dark:text-dark dark:hover:bg-blue-200 text-white font-semibold rounded-lg hover:bg-gray-700 transition-colors text-center"
           >
             View Code
           </a>

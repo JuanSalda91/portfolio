@@ -1,15 +1,15 @@
 function Contact() {
     return (
-      <section id="contact" className="py-20 bg-light">
+      <section id="contact" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-light via-white to-blue-50 dark:from-[#020617] dark:via-[#020617] dark:to-slate-900">
         <div className="container mx-auto px-4 max-w-4xl">
   
           {/* Section Heading */}
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-dark mb-4">
+            <h2 className="text-4xl md:text-5xl font-bold text-dark mb-4 dark:text-light">
               Get In Touch
             </h2>
             <div className="w-20 h-1 bg-gradient-to-r from-primary to-accent mx-auto mb-6"></div>
-            <p className="text-lg text-dark/70 max-w-xl mx-auto leading-relaxed">
+            <p className="text-lg text-dark/70 max-w-xl mx-auto leading-relaxed dark:text-light">
               I'm always open to new opportunities and collaborations. 
               Whether you have a project in mind, a question, or just want 
               to say hello, my inbox is always open!
@@ -17,7 +17,7 @@ function Contact() {
           </div>
   
           {/* Contact Card */}
-          <div className="bg-white rounded-2xl shadow-lg p-8 md:p-12">
+          <div className="bg-white rounded-2xl shadow-lg p-8 md:p-12 dark:bg-dark dark:shadow-lg dark:shadow-primary">
   
             {/* Two Column Layout */}
             <div className="grid md:grid-cols-2 gap-10">
@@ -25,10 +25,10 @@ function Contact() {
               {/* Left Column - Contact Info */}
               <div className="space-y-6">
                 <div>
-                  <h3 className="text-2xl font-bold text-dark mb-2">
+                  <h3 className="text-2xl font-bold text-dark mb-2 dark:text-light">
                     Have A Project In Mind?
                   </h3>
-                  <p className="text-dark/70 leading-relaxed">
+                  <p className="text-dark/70 leading-relaxed dark:text-light">
                     Let's work together.
                   </p>
                 </div>
@@ -41,10 +41,10 @@ function Contact() {
                     </svg>
                   </div>
                   <div>
-                    <p className="text-sm font-medium text-dark/50 uppercase tracking-wide">Email</p>
+                    <p className="text-sm font-medium text-dark/50 uppercase tracking-wide dark:text-light">Email</p>
                     <a
                       href="mailto:juansalda9131@gmail.com"
-                      className="text-dark font-medium hover:text-primary transition-colors"
+                      className="text-dark font-medium hover:text-primary transition-colors dark:text-light dark:hover:text-primary"
                     >
                       juansalda9131@gmail.com
                     </a>
@@ -60,8 +60,8 @@ function Contact() {
                     </svg>
                   </div>
                   <div>
-                    <p className="text-sm font-medium text-dark/50 uppercase tracking-wide">Location</p>
-                    <p className="text-dark font-medium">Atlanta, Georgia, US</p>
+                    <p className="text-sm font-medium text-dark/50 uppercase tracking-wide dark:text-light">Location</p>
+                    <p className="text-dark font-medium dark:text-light">Atlanta, Georgia, US</p>
                   </div>
                 </div>
   
@@ -71,7 +71,7 @@ function Contact() {
                     <span className="w-3 h-3 bg-accent rounded-full animate-pulse"></span>
                   </div>
                   <div>
-                    <p className="text-sm font-medium text-dark/50 uppercase tracking-wide">Status</p>
+                    <p className="text-sm font-medium text-dark/50 uppercase tracking-wide dark:text-light">Status</p>
                     <p className="text-accent font-medium">Available</p>
                   </div>
                 </div>
@@ -81,10 +81,10 @@ function Contact() {
               {/* Right Column - Social Links */}
               <div className="space-y-6">
                 <div>
-                  <h3 className="text-2xl font-bold text-dark mb-2">
+                  <h3 className="text-2xl font-bold text-dark mb-2 dark:text-light">
                     Find Me Online
                   </h3>
-                  <p className="text-dark/70 leading-relaxed">
+                  <p className="text-dark/70 leading-relaxed dark:text-light">
                     Check my projects and my experience.
                   </p>
                 </div>
@@ -94,7 +94,7 @@ function Contact() {
                   href="https://github.com/JuanSalda91"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center space-x-4 p-4 rounded-xl bg-light hover:bg-dark hover:text-white group transition-all duration-300"
+                  className="flex items-center space-x-4 p-4 rounded-xl bg-light hover:bg-dark hover:text-white group transition-all duration-300 dark:hover:bg-black"
                 >
                   <div className="w-10 h-10 flex items-center justify-center">
                     <svg className="w-7 h-7 text-dark group-hover:text-white transition-colors" fill="currentColor" viewBox="0 0 24 24">
@@ -135,7 +135,7 @@ function Contact() {
               </p>
               <a
                 href="mailto:youremail@gmail.com"
-                className="inline-block px-10 py-4 bg-primary text-white font-semibold rounded-lg shadow-lg hover:bg-blue-600 hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300"
+                className="inline-block px-10 py-4 bg-primary text-white font-semibold rounded-lg shadow-lg hover:bg-blue-600 hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 dark:shadow-lg dark:shadow-light/15"
               >
                 Send Me An Email
               </a>

@@ -7,7 +7,7 @@ import Contact from './components/Contact.jsx';
 
 function App() {
   return (
-    <div className="min-h-screen bg-light text-dark dark:bg-[#020617] dark:text-gray-100">
+    <div className="min-h-screen bg-light text-dark dark:bg-dark dark:text-gray-100">
       {/* Navbar will go here */}
       <Navbar />
 

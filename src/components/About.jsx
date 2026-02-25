@@ -4,12 +4,12 @@ function About() {
     // ==========================================
   
     return (
-      <section id="about" className="py-20 bg-white">
+      <section id="about" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-light via-white to-blue-50 dark:from-[#020617] dark:via-[#020617] dark:to-slate-900">
         <div className="container mx-auto px-4 max-w-6xl">
           
           {/* Section Heading */}
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-dark mb-4">
+            <h2 className="text-4xl dark:text-light md:text-5xl font-bold text-dark mb-4">
               About Me
             </h2>
             <div className="w-20 h-1 bg-gradient-to-r from-primary to-accent mx-auto"></div>
@@ -43,7 +43,7 @@ function About() {
             <div className={`${showPhoto ? 'md:col-span-2' : 'md:col-span-1'} space-y-6 ${!showPhoto && 'max-w-4xl mx-auto'}`}>
               
               {/* Paragraph 1 - Introduction */}
-              <p className="text-lg text-dark/80 leading-relaxed">
+              <p className="text-lg text-dark/80 dark:text-light leading-relaxed">
                 I'm a Full Stack Developer passionate about creating web applications 
                 that make a difference. Currently honing my skills in the MERN stack 
                 (MongoDB, Express.js, React, Node.js), I love the challenge of bringing 
@@ -51,7 +51,7 @@ function About() {
               </p>
   
               {/* Paragraph 2 - Development Philosophy */}
-              <p className="text-lg text-dark/80 leading-relaxed">
+              <p className="text-lg text-dark/80 dark:text-light leading-relaxed">
                 My approach focuses on writing clean, maintainable code and creating 
                 intuitive user experiences. From designing responsive frontends to 
                 building robust backend APIs, I enjoy working across the full stack 
@@ -59,7 +59,7 @@ function About() {
               </p>
   
               {/* Paragraph 3 - What Makes You Different */}
-              <p className="text-lg text-dark/80 leading-relaxed">
+              <p className="text-lg text-dark/80 dark:text-light leading-relaxed">
                 What drives me is the intersection of problem-solving and creativity. 
                 I believe great applications aren't just functional—they're thoughtfully 
                 designed, performant, and a joy to use. I'm always learning new 
@@ -68,25 +68,25 @@ function About() {
   
               {/* Skills Highlight */}
               <div className="pt-6">
-                <h3 className="text-xl font-semibold text-dark mb-4">
+                <h3 className="text-xl font-semibold text-dark dark:text-light mb-4">
                   Quick Highlights:
                 </h3>
                 <div className="grid sm:grid-cols-2 gap-4">
                   <div className="flex items-start space-x-3">
-                    <span className="text-primary text-2xl">✓</span>
-                    <span className="text-dark/80">Full Stack MERN Development</span>
+                    <span className="text-primary  text-2xl">✓</span>
+                    <span className="text-dark/80 dark:text-light">Full Stack MERN Development</span>
                   </div>
                   <div className="flex items-start space-x-3">
                     <span className="text-primary text-2xl">✓</span>
-                    <span className="text-dark/80">Responsive UI/UX Design</span>
+                    <span className="text-dark/80 dark:text-light">Responsive UI/UX Design</span>
                   </div>
                   <div className="flex items-start space-x-3">
                     <span className="text-primary text-2xl">✓</span>
-                    <span className="text-dark/80">RESTful API Development</span>
+                    <span className="text-dark/80 dark:text-light">RESTful API Development</span>
                   </div>
                   <div className="flex items-start space-x-3">
                     <span className="text-primary text-2xl">✓</span>
-                    <span className="text-dark/80">Database Design & Management</span>
+                    <span className="text-dark/80 dark:text-light">Database Design & Management</span>
                   </div>
                 </div>
               </div>
