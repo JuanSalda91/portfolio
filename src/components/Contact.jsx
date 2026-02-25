@@ -85,7 +85,7 @@ function Contact() {
                     Find Me Online
                   </h3>
                   <p className="text-dark/70 leading-relaxed">
-                    Come check my projects and my experience.
+                    Check my projects and my experience.
                   </p>
                 </div>
   
