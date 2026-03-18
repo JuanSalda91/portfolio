@@ -14,7 +14,7 @@ function Projects() {
           <div className="w-20 h-1 bg-gradient-to-r from-primary to-accent mx-auto mb-6"></div>
           <p className="text-lg text-dark/70 dark:text-light max-w-2xl mx-auto">
             Here are some of my recent projects showcasing my skills in full-stack development, 
-            UI/UX design, and problem-solving.
+            projects.
           </p>
         </div>
 

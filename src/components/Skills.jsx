@@ -12,7 +12,7 @@ function Skills() {
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-primary to-accent mx-auto mb-6"></div>
           <p className="text-lg text-dark/70 dark:text-light max-w-2xl mx-auto">
-            Technologies and tools I use to design, build, and deploy full-stack web applications.
+            Technologies and tools I use to design, build, and deploy projects.
           </p>
         </div>
 

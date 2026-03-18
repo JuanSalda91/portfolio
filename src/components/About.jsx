@@ -61,7 +61,7 @@ function About() {
               {/* Paragraph 3 - What Makes You Different */}
               <p className="text-lg text-dark/80 dark:text-light leading-relaxed">
                 What drives me is the intersection of problem-solving and creativity. 
-                I believe great applications aren't just functional—they're thoughtfully 
+                I believe great applications aren't just functional, they're thoughtfully 
                 designed, performant, and a joy to use. I'm always learning new 
                 technologies and best practices to level up my craft.
               </p>
